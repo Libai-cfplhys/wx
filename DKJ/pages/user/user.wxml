@@ -22,30 +22,47 @@
 	</view>
 	<view class="body_card">
 		<view class="body_card_head">
-			<view>收益数据</view>
-			<view>
-				<icon></icon>
+			<view style="font-weight:bold;display: inline-block;">收益数据</view>
+			<view style="float: right;display: inline-block;color:#F5A448;font-size:16px;">
+				<image src="../../image/app02_07.gif" style="height:20px;width:28px;"></image>
 				提现记录
 			</view>
 		</view>
 		<view class="body_card_body">
-			<view></view>
-			<view></view>
+			<view class="body_card_body_card">
+				<image src="../../image/app02_11.gif" style="height:80px;width:160px;"></image>
+			</view>
+			<view class="body_card_body_card">
+				<image src="../../image/app02_13.gif" style="height:80px;width:160px;"></image>
+			</view>
 		</view>
 		<view class="body_card_foot">
-			<view class="body_card_foot_left1">
-				<text>0.00</text>
-				<text>今日预估</text>
+			<view class="body_card_foot_left">
+				<view style="font-size: 16px;font-weight: bold;">0.00</view>
+				<view class="body_card_foot_left_text">今日预估</view>
 			</view>
-			<view class="body_card_foot_left2">
-				<text>0.00</text>
-				<text>昨日预估</text>
+			<view class="body_card_foot_left" style="margin-left: 40px;">
+				<view style="font-size: 16px;font-weight: bold;">0.00</view>
+				<view class="body_card_foot_left_text">昨日预估</view>
 			</view>
-			<view>
-				<button>
-					<icon></icon>我的钱包
-				</button>
+			<view class="body_card_foot_right">
+				<view class="body_card_foot_right_son">
+					<image src="../../image/app02_18.gif" style="height:20px;width:20px;"></image>
+					<view class="body_card_foot_right_text">我的钱包</view>
+				</view>
 			</view>
+		</view>
+	</view>
+	<view class="list">
+		<view class="list_img">
+			<image wx:for="{{list_icon}}" src='{{list_icon[index]}}'></image>
+		</view>
+		<view class="list_text" wx:for="{{list_text}}">
+			<text>{{list_text[index]}}</text>
+			<icon class="iconfont icon-youjiantou" style="font-size: 30rpx; float:right;"></icon>
+		</view>
+		<view class="guanzhu">
+			<image src="../../image/app02_35.gif" style="height:60px;width:60px;"></image>
 		</view>
 	</view>
 </view>

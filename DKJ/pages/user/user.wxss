@@ -1,6 +1,7 @@
-page{
+page {
   height: 100%;
 }
+
 .father {
   background-color: #e7e7e7;
   height: 100%;
@@ -51,7 +52,101 @@ page{
   width: 90%;
   background-color: white;
   position: relative;
-  top: -50px;
+  top: -40px;
   left: 5%;
   border-radius: 5%;
+}
+
+.body_card_head {
+  padding: 15px;
+}
+
+.body_card_body_card {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.body_card_foot_left {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 7px;
+}
+
+.body_card_foot_left_text {
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.body_card_foot_right {
+  display: inline-block;
+  margin-left: 40px;
+  position: relative;
+  top: -14px;
+  left: 5px;
+}
+
+.body_card_foot_right_text {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 13px;
+  color: #F5A448;
+}
+
+.body_card_foot_right_son {
+  position: relative;
+  top: 6px;
+  left: 15px;
+}
+
+.body_card_foot_right {
+  border: 1px #F5A448 solid;
+  border-radius: 100px;
+  height: 35px;
+  width: 130px;
+}
+
+/* ****************************    list    *********************************** */
+/* ****************************    list    *********************************** */
+/* ****************************    list    *********************************** */
+.list {
+  height: 200px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  top: -25px;
+  left: 5%;
+  border-radius: 5%;
+}
+
+.list_img {
+  width: 30px;
+  display: inline-block;
+}
+
+.list_img image {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.list_text {
+  height: 32px;
+  width: 285px;
+  position: relative;
+  top: -180px;
+  left: 70px;
+  border-bottom: 1px #e7e7e7 solid;
+}
+
+.list_text~view {
+  margin-top: 15px;
+
+}
+
+.guanzhu{
+  position: relative;
+  top: -200px;
+  left: 320px;
 }
