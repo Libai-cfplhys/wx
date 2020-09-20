@@ -1,4 +1,57 @@
-/* pages/user/user.wxss */.intro {
-  margin: 30px;
-  text-align: center;
+page{
+  height: 100%;
+}
+.father {
+  background-color: #e7e7e7;
+  height: 100%;
+}
+
+.head {
+  height: 250px;
+  background-color: #f5a448;
+}
+
+.head_cc {
+  height: 30px;
+  background-color: #ededed;
+  padding-top: 12px;
+  position: relative;
+  top: 20px;
+}
+
+.head_data {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  color: white;
+}
+
+.head_portrait {
+  height: 80px;
+  width: 80px;
+}
+
+.head_data_img {
+  display: inline-block;
+}
+
+.head_data_text {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+
+/* ****************************    body_card     *********************************** */
+/* ****************************    body_card     *********************************** */
+/* ****************************    body_card     *********************************** */
+
+.body_card {
+  height: 200px;
+  width: 90%;
+  background-color: white;
+  position: relative;
+  top: -50px;
+  left: 5%;
+  border-radius: 5%;
 }

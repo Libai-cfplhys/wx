@@ -1,1 +1,51 @@
-<view class="intro">接口</view>
+<view class="father">
+	<view class="head">
+		<view class="head_cc">
+			<text style="margin-left: 20px;">橙创联盟</text>
+		</view>
+		<view class="head_data">
+			<view style="display: inline-block;">
+				<text style="display: block;font-size:18px;">CMP收益</text>
+				<view class="head_data_img">
+					<image src="../../image/app02_03.gif" class="head_portrait"></image>
+				</view>
+				<view class="head_data_text">
+					<view style="font-size:20px;">海 绵 宝 宝</view>
+					<view style="margin-top: 5px;font-size:14px;">ID：16678</view>
+					<view style="margin-top: 5px;font-size:14px;">手机号：</view>
+				</view>
+			</view>
+			<view style="display: inline-block;">
+				<text style="position: relative; left:70px;top:-20px;font-size:16px;">完善个人信息></text>
+			</view>
+		</view>
+	</view>
+	<view class="body_card">
+		<view class="body_card_head">
+			<view>收益数据</view>
+			<view>
+				<icon></icon>
+				提现记录
+			</view>
+		</view>
+		<view class="body_card_body">
+			<view></view>
+			<view></view>
+		</view>
+		<view class="body_card_foot">
+			<view class="body_card_foot_left1">
+				<text>0.00</text>
+				<text>今日预估</text>
+			</view>
+			<view class="body_card_foot_left2">
+				<text>0.00</text>
+				<text>昨日预估</text>
+			</view>
+			<view>
+				<button>
+					<icon></icon>我的钱包
+				</button>
+			</view>
+		</view>
+	</view>
+</view>
