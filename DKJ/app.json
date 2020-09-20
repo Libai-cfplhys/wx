@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/user/user",
     "pages/index/index",
     "pages/mall/mall",
     "pages/user/user",
