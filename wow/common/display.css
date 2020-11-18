@@ -1,0 +1,115 @@
+/*display*/
+.d-flex {
+	display: -webkit-flex;
+	display: flex;
+}
+
+/* 定义主轴从左向右 */
+.d-flex-row {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+}
+
+/* 定义主轴从右向左 */
+.d-flex-row-reverse {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* 定义主轴从上向下 */
+.d-flex-column {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+/* 定义主轴从下向上 */
+.d-flex-column-reverse {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+/* 不换行 */
+.d-flex-nowrap {
+	flex-wrap: nowrap;
+}
+
+/* 换行 第一行在上方 */
+.d-flex-wrap {
+	flex-wrap: wrap;
+}
+
+/* 换行 第一行在下方 */
+.d-flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* 主轴对齐方式 */
+/* 主轴左对齐 */
+.d-j-flex-start {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* 主轴右对齐 */
+.d-j-flex-end {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* 主轴居中 */
+.d-j-flex-center {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+
+/* 主轴两端对齐 */
+.d-j-flex-space-between {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 主轴居中等分留边距 */
+.d-j-flex-space-around {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* 交叉轴起点对齐 */
+.d-a-flex-start {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-start;
+}
+/* 交叉轴终点对齐 */
+.d-a-flex-end {
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-end;
+}
+/* 交叉轴居中对齐 */
+.d-a-flex-center {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+/* 交叉轴第一行文字的基线对齐 */
+.d-a-flex-baseline {
+	display: -webkit-flex;
+	display: flex;
+	align-items: baseline;
+}
+/* （默认值）如果项目未设置高度或设为auto，将占满整个容器的高度 */
+.d-a-flex-stretch {
+	display: -webkit-flex;
+	display: flex;
+	align-items: stretch;
+}

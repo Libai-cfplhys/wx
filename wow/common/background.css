@@ -1,0 +1,152 @@
+/* 背景色样式Star 命名规则 bg-颜色 */
+/* 黑 */
+.bg-black {
+	background-color: #000000;
+}
+
+/* 白*/
+.bg-white {
+	background-color: #ffffff;
+}
+
+/* 灰 */
+.bg-gray-10 {
+	background-color: #eaeaea;
+}
+
+.bg-gray-20 {
+	background-color: #d0d0d0;
+}
+
+.bg-gray-30 {
+	background-color: #b6b6b6;
+}
+
+.bg-gray-40 {
+	background-color: #9c9c9c;
+}
+
+.bg-gray-50 {
+	background-color: #828282;
+}
+
+.bg-gray-60 {
+	background-color: #686868;
+}
+
+.bg-gray-70 {
+	background-color: #4e4e4e;
+}
+
+.bg-gray-80 {
+	background-color: #343434;
+}
+
+.bg-gray-90 {
+	background-color: #1a1a1a;
+}
+
+/* 红 */
+.bg-red {
+	background-color: #ff0000;
+}
+
+.bg-red-80 {
+	background-color: #ff3232;
+}
+
+/* 橙 */
+.bg-orange {
+	background-color: #ff8000;
+}
+
+.bg-orange-80 {
+	background-color: #ff9932;
+}
+
+/* 黄 */
+.bg-yellow {
+	background-color: #ffff00;
+}
+
+.bg-yellow-80 {
+	background-color: #ffff32;
+}
+
+/* 黄绿 */
+.bg-yellow-green {
+	background-color: #80ff00;
+}
+
+.bg-yellow-green-80 {
+	background-color: #9cff32;
+}
+
+/* 绿 */
+.bg-green {
+	background-color: #00ff00;
+}
+
+.bg-green-80 {
+	background-color: #32ff32;
+}
+
+/* 青绿 */
+.bg-cyan-green {
+	background-color: #00ff80;
+}
+
+.bg-cyan-green-80 {
+	background-color: #32ff99;
+}
+
+/* 青 */
+.bg-cyan {
+	background-color: #00ffff;
+}
+
+.bg-cyan-80 {
+	background-color: #afffff;
+}
+
+/* 靛蓝 */
+.bg-blue-cyan {
+	background-color: #0080ff;
+}
+
+/* 蓝 */
+.bg-blue {
+	background-color: #0000ff;
+}
+
+.bg-blue-80 {
+	background-color: #3232ff;
+}
+
+/* 紫 */
+.bg-violet {
+	background-color: #8000ff;
+}
+
+.bg-violet-80 {
+	background-color: #9932ff;
+}
+
+/* 紫红 */
+.bg-violet-red {
+	background-color: #ff00ff;
+}
+
+.bg-violet-red-80 {
+	background-color: #ff32ff;
+}
+
+/* 品红 */
+.bg-Pinkish {
+	background-color: #ff0080;
+}
+
+.bg-Pinkish-80 {
+	background-color: #ff329c;
+}
+/* 背景色样式end */

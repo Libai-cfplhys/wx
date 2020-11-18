@@ -1,0 +1,228 @@
+/* 文字样式Star */
+/* 字体大小 命名规则h+数字 最大36 最小14 显示单位为rpx */
+.h36 {
+	font-size: 36rpx;
+}
+
+.h34 {
+	font-size: 34rpx;
+}
+
+.h32 {
+	font-size: 32rpx;
+}
+
+.h30 {
+	font-size: 30rpx;
+}
+
+.h28 {
+	font-size: 28rpx;
+}
+
+.h26 {
+	font-size: 26rpx;
+}
+
+.h24 {
+	font-size: 24rpx;
+}
+
+.h22 {
+	font-size: 22rpx;
+}
+
+.h20 {
+	font-size: 20rpx;
+}
+
+.h18 {
+	font-size: 18rpx;
+}
+
+.h16 {
+	font-size: 16rpx;
+}
+
+.h14 {
+	font-size: 14rpx;
+}
+
+/* 文字颜色 命名规则 f-颜色名称 */
+/* 黑 */
+.black {
+	color: #000000;
+}
+
+/* 白*/
+.white {
+	color: #ffffff;
+}
+
+/* 灰 */
+.gray-10 {
+	color: #eaeaea;
+}
+
+.gray-20 {
+	color: #d0d0d0;
+}
+
+.gray-30 {
+	color: #b6b6b6;
+}
+
+.gray-40 {
+	color: #9c9c9c;
+}
+
+.gray-50 {
+	color: #828282;
+}
+
+.gray-60 {
+	color: #686868;
+}
+
+.gray-70 {
+	color: #4e4e4e;
+}
+
+.gray-80 {
+	color: #343434;
+}
+
+.gray-90 {
+	color: #1a1a1a;
+}
+
+/* 红 */
+.red {
+	color: #ff0000;
+}
+
+.red-80 {
+	color: #ff3232;
+}
+
+/* 橙 */
+.orange {
+	color: #ff8000;
+}
+
+.orange-80 {
+	color: #ff9932;
+}
+
+/* 黄 */
+.yellow {
+	color: #ffff00;
+}
+
+.yellow-80 {
+	color: #ffff32;
+}
+
+/* 黄绿 */
+.yellow-green {
+	color: #80ff00;
+}
+
+.yellow-green-80 {
+	color: #9cff32;
+}
+
+/* 绿 */
+.green {
+	color: #00ff00;
+}
+
+.green-80 {
+	color: #32ff32;
+}
+
+/* 青绿 */
+.cyan-green {
+	color: #00ff80;
+}
+
+.cyan-green-80 {
+	color: #32ff99;
+}
+
+/* 青 */
+.cyan {
+	color: #00ffff;
+}
+
+.cyan-80 {
+	color: #afffff;
+}
+
+/* 靛蓝 */
+.blue-cyan {
+	color: #0080ff;
+}
+
+/* 蓝 */
+.blue {
+	color: #0000ff;
+}
+
+.blue-80 {
+	color: #3232ff;
+}
+
+/* 紫 */
+.violet {
+	color: #8000ff;
+}
+
+.violet-80 {
+	color: #9932ff;
+}
+
+/* 紫红 */
+.violet-red {
+	color: #ff00ff;
+}
+
+.violet-red-80 {
+	color: #ff32ff;
+}
+
+/* 品红 */
+.Pinkish {
+	color: #ff0080;
+}
+
+.Pinkish-80 {
+	color: #ff329c;
+}
+
+/*text align*/
+.tc {
+	text-align: center;
+}
+
+.tr {
+	text-align: right;
+}
+
+/* 超出文字用...代替 */
+/*ellipsis*/
+.text-ellipsis{
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.text-ellipsis-2{
+      display: -webkit-box;
+      word-break: break-all;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+}
+/* 文字样式End */

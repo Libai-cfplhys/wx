@@ -1,0 +1,599 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+/* 文字样式Star */
+/* 字体大小 命名规则h+数字 最大36 最小14 显示单位为rpx */
+.h36 {
+	font-size: 36rpx;
+}
+.h34 {
+	font-size: 34rpx;
+}
+.h32 {
+	font-size: 32rpx;
+}
+.h30 {
+	font-size: 30rpx;
+}
+.h28 {
+	font-size: 28rpx;
+}
+.h26 {
+	font-size: 26rpx;
+}
+.h24 {
+	font-size: 24rpx;
+}
+.h22 {
+	font-size: 22rpx;
+}
+.h20 {
+	font-size: 20rpx;
+}
+.h18 {
+	font-size: 18rpx;
+}
+.h16 {
+	font-size: 16rpx;
+}
+.h14 {
+	font-size: 14rpx;
+}
+/* 文字颜色 命名规则 f-颜色名称 */
+/* 黑 */
+.black {
+	color: #000000;
+}
+/* 白*/
+.white {
+	color: #ffffff;
+}
+/* 灰 */
+.gray-10 {
+	color: #eaeaea;
+}
+.gray-20 {
+	color: #d0d0d0;
+}
+.gray-30 {
+	color: #b6b6b6;
+}
+.gray-40 {
+	color: #9c9c9c;
+}
+.gray-50 {
+	color: #828282;
+}
+.gray-60 {
+	color: #686868;
+}
+.gray-70 {
+	color: #4e4e4e;
+}
+.gray-80 {
+	color: #343434;
+}
+.gray-90 {
+	color: #1a1a1a;
+}
+/* 红 */
+.red {
+	color: #ff0000;
+}
+.red-80 {
+	color: #ff3232;
+}
+/* 橙 */
+.orange {
+	color: #ff8000;
+}
+.orange-80 {
+	color: #ff9932;
+}
+/* 黄 */
+.yellow {
+	color: #ffff00;
+}
+.yellow-80 {
+	color: #ffff32;
+}
+/* 黄绿 */
+.yellow-green {
+	color: #80ff00;
+}
+.yellow-green-80 {
+	color: #9cff32;
+}
+/* 绿 */
+.green {
+	color: #00ff00;
+}
+.green-80 {
+	color: #32ff32;
+}
+/* 青绿 */
+.cyan-green {
+	color: #00ff80;
+}
+.cyan-green-80 {
+	color: #32ff99;
+}
+/* 青 */
+.cyan {
+	color: #00ffff;
+}
+.cyan-80 {
+	color: #afffff;
+}
+/* 靛蓝 */
+.blue-cyan {
+	color: #0080ff;
+}
+/* 蓝 */
+.blue {
+	color: #0000ff;
+}
+.blue-80 {
+	color: #3232ff;
+}
+/* 紫 */
+.violet {
+	color: #8000ff;
+}
+.violet-80 {
+	color: #9932ff;
+}
+/* 紫红 */
+.violet-red {
+	color: #ff00ff;
+}
+.violet-red-80 {
+	color: #ff32ff;
+}
+/* 品红 */
+.Pinkish {
+	color: #ff0080;
+}
+.Pinkish-80 {
+	color: #ff329c;
+}
+/*text align*/
+.tc {
+	text-align: center;
+}
+.tr {
+	text-align: right;
+}
+/* 超出文字用...代替 */
+/*ellipsis*/
+.text-ellipsis{
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.text-ellipsis-2{
+      display: -webkit-box;
+      word-break: break-all;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+}
+/* 文字样式End */
+/* 背景色样式Star 命名规则 bg-颜色 */
+/* 黑 */
+.bg-black {
+	background-color: #000000;
+}
+/* 白*/
+.bg-white {
+	background-color: #ffffff;
+}
+/* 灰 */
+.bg-gray-10 {
+	background-color: #eaeaea;
+}
+.bg-gray-20 {
+	background-color: #d0d0d0;
+}
+.bg-gray-30 {
+	background-color: #b6b6b6;
+}
+.bg-gray-40 {
+	background-color: #9c9c9c;
+}
+.bg-gray-50 {
+	background-color: #828282;
+}
+.bg-gray-60 {
+	background-color: #686868;
+}
+.bg-gray-70 {
+	background-color: #4e4e4e;
+}
+.bg-gray-80 {
+	background-color: #343434;
+}
+.bg-gray-90 {
+	background-color: #1a1a1a;
+}
+/* 红 */
+.bg-red {
+	background-color: #ff0000;
+}
+.bg-red-80 {
+	background-color: #ff3232;
+}
+/* 橙 */
+.bg-orange {
+	background-color: #ff8000;
+}
+.bg-orange-80 {
+	background-color: #ff9932;
+}
+/* 黄 */
+.bg-yellow {
+	background-color: #ffff00;
+}
+.bg-yellow-80 {
+	background-color: #ffff32;
+}
+/* 黄绿 */
+.bg-yellow-green {
+	background-color: #80ff00;
+}
+.bg-yellow-green-80 {
+	background-color: #9cff32;
+}
+/* 绿 */
+.bg-green {
+	background-color: #00ff00;
+}
+.bg-green-80 {
+	background-color: #32ff32;
+}
+/* 青绿 */
+.bg-cyan-green {
+	background-color: #00ff80;
+}
+.bg-cyan-green-80 {
+	background-color: #32ff99;
+}
+/* 青 */
+.bg-cyan {
+	background-color: #00ffff;
+}
+.bg-cyan-80 {
+	background-color: #afffff;
+}
+/* 靛蓝 */
+.bg-blue-cyan {
+	background-color: #0080ff;
+}
+/* 蓝 */
+.bg-blue {
+	background-color: #0000ff;
+}
+.bg-blue-80 {
+	background-color: #3232ff;
+}
+/* 紫 */
+.bg-violet {
+	background-color: #8000ff;
+}
+.bg-violet-80 {
+	background-color: #9932ff;
+}
+/* 紫红 */
+.bg-violet-red {
+	background-color: #ff00ff;
+}
+.bg-violet-red-80 {
+	background-color: #ff32ff;
+}
+/* 品红 */
+.bg-Pinkish {
+	background-color: #ff0080;
+}
+.bg-Pinkish-80 {
+	background-color: #ff329c;
+}
+/* 背景色样式end */
+/* 盒子属性及定位 */
+/*position*/
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+/*宽度*/
+.w-100 {
+	width: 100%;
+}
+.w-50 {
+	width: 50%;
+}
+.w-33 {
+	width: 33.33333333%;
+}
+.w-25 {
+	width: 25%;
+}
+.w-20 {
+	width: 20%;
+}
+/* 高度 */
+.h-100 {
+	height: 100%;
+}
+/*padding*/
+.p-10 {
+	padding: 10rpx;
+}
+.p-20 {
+	padding: 20rpx;
+}
+.p-30 {
+	padding: 30rpx;
+}
+.p-10-0 {
+	padding: 10rpx 0;
+}
+.p-20-0 {
+	padding: 20rpx 0;
+}
+.p-30-0 {
+	padding: 30rpx 0;
+}
+.p-0-10 {
+	padding: 0 10rpx;
+}
+.p-0-20 {
+	padding: 0 20rpx;
+}
+.p-0-30 {
+	padding: 0 30rpx;
+}
+.p-top-10 {
+	padding-top: 10rpx;
+}
+.p-top-20 {
+	padding-top: 20rpx;
+}
+.p-top-30 {
+	padding-top: 30rpx;
+}
+.p-left-10 {
+	padding-bottom: 10rpx;
+}
+.p-left-20 {
+	padding-bottom: 20rpx;
+}
+.p-left-30 {
+	padding-bottom: 30rpx;
+}
+.p-bottom-10 {
+	padding-bottom: 10rpx;
+}
+.p-bottom-20 {
+	padding-bottom: 20rpx;
+}
+.p-bottom-30 {
+	padding-bottom: 30rpx;
+}
+/*margin*/
+.m-top-10 {
+	margin-top: 10rpx;
+}
+.m-top-20 {
+	margin-top: 20rpx;
+}
+.m-top-30 {
+	margin-top: 30rpx;
+}
+.m-top-50 {
+	margin-top: 50rpx;
+}
+.m-right-10 {
+	margin-right: 10rpx;
+}
+.m-right-20 {
+	margin-right: 20rpx;
+}
+.m-right-30 {
+	margin-right: 30rpx;
+}
+.m-right-50 {
+	margin-right: 50rpx;
+}
+.m-bottom-10 {
+	margin-bottom: 10rpx;
+}
+.m-bottom-20 {
+	margin-bottom: 20rpx;
+}
+.m-bottom-30 {
+	margin-bottom: 30rpx;
+}
+.m-bottom-50 {
+	margin-bottom: 50rpx;
+}
+.m-lelf-10 {
+	margin-left: 10rpx;
+}
+.m-lelf-20 {
+	margin-left: 20rpx;
+}
+.m-lelf-30 {
+	margin-left: 30rpx;
+}
+.m-lelf-50 {
+	margin-left: 50rpx;
+}
+/*display*/
+.d-flex {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+}
+/* 定义主轴从左向右 */
+.d-flex-row {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+/* 定义主轴从右向左 */
+.d-flex-row-reverse {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+}
+/* 定义主轴从上向下 */
+.d-flex-column {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+/* 定义主轴从下向上 */
+.d-flex-column-reverse {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+/* 不换行 */
+.d-flex-nowrap {
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+/* 换行 第一行在上方 */
+.d-flex-wrap {
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+/* 换行 第一行在下方 */
+.d-flex-wrap-reverse {
+	-webkit-flex-wrap: wrap-reverse;
+	        flex-wrap: wrap-reverse;
+}
+/* 主轴对齐方式 */
+/* 主轴左对齐 */
+.d-j-flex-start {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+/* 主轴右对齐 */
+.d-j-flex-end {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+/* 主轴居中 */
+.d-j-flex-center {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+/* 主轴两端对齐 */
+.d-j-flex-space-between {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+/* 主轴居中等分留边距 */
+.d-j-flex-space-around {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+/* 交叉轴起点对齐 */
+.d-a-flex-start {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+/* 交叉轴终点对齐 */
+.d-a-flex-end {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+/* 交叉轴居中对齐 */
+.d-a-flex-center {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+/* 交叉轴第一行文字的基线对齐 */
+.d-a-flex-baseline {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+}
+/* （默认值）如果项目未设置高度或设为auto，将占满整个容器的高度 */
+.d-a-flex-stretch {
+	display: -webkit-flex;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: stretch;
+	-webkit-align-items: stretch;
+	        align-items: stretch;
+}
+
